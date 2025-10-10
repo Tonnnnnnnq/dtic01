@@ -6,7 +6,7 @@ int main() {
     char nickname[20];  //%s 
     int age;            //%d
     float salary;       //%f
-    
+
     Showline;
     printf("Your information:\n");
     Showline;
