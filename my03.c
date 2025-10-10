@@ -4,7 +4,7 @@
     " " double quote , ' ' single quote , # hash , / slash , \ backslash
     : colon , ; semicolon , () round bracket , [] square bracket
     {} curly bracket , < > angle bracket , | Pipe , & ampersand
-    ` backtick (ALT+9+6) 
+    ` backtick (ALT+9+6) ^ caret
 */
 
 

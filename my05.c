@@ -1,3 +1,29 @@
+#include <stdio.h>
+
+int dataA = 100; // Global variable ใช้ที่ไหนก็ได้
+const int infol = 111;
+void Showdata(){
+    int dataB =200;   // Local variable ใช้ได้เฉพาะภายใน Code Block {}
+    int dataE;
+    const int info1 = 222;
+    const int info3;
+    //info1 = 333; error เพราะเป็น const เปลี่ยนค่าไม่ได้
+    //info2 = 444; error เพราะเป็น const เปลี่ยนค่าไม่ได้
+    //info3 = 555; error เพราะเป็น const แล้วมากำหนดค่าที่หลังไม่ได้ ต้องกำหนดตั้งแต่คอม declare
+    printf("dataA = %d\n", dataA);
+    printf("dataB = %d\n", dataB);
+    //printf("dataC = %d\n", dataC); // error
+    dataE = 400;
+    
+
+}
 int main() {
+    int dataC = 300;  // Local variable ใช้ได้เฉพาะภายใน Code Block {}
+    printf("dataA = %d\n", dataA);
+    printf("dataA = %d\n", dataC);
+    //printf("dataB = %d\n", dataB); // error
+    dataC = 400;
+    //dataB = 999;
+    //dataE = 555;
     return 0;
 }
